@@ -4,7 +4,7 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 
 img {
     width: 100%;
-    display: block;
+    display: block; 
 }
 div.container, div.home-container {
     max-width: 40em;
@@ -18,13 +18,13 @@ nav ul {
 
 nav ul li {
     padding: 0 1em .5em 0;
+    font-family: meursault-variable, serif;
+
 }
 
 nav ul li a {
     display: inline;
-    color: rgb(76, 115, 167);
-    font-family: sans-serif;
-    font-weight: 700;
+    color: rgb(45, 30, 47);
     margin: 0 .6em;
 }
 
@@ -33,32 +33,37 @@ header img {
     margin: 1em 0 1em .5em;
 }
 h2 {
-    color: rgb(74, 90, 143);
-    font-family: serif;
-    font-size: 2em;
-    font-weight: 800;
+    color: rgb(45, 30, 47);
+    font-family: meursault-variable, serif;
+    font-weight: 400;
+    font-size: 4em;
     margin: .1em 0em 0;
 }
 p {
     color: rgb(0,0,0);
-    font-weight: 400;
+    font-family: "helvetica-neue-lt-pro", sans-serif;
+font-weight: 200;
+font-style: normal;
     margin: 0 .7em 1.5em;
-    font-family: sans-serif;
     line-height: 1.2;
 }
 section.mainstory h2 {
-    font-size: 3em;
+    font-size: 2.5em;
+    font-weight: 400;
 }
 
 section.secondary h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin: .2em .3em 0;
+        font-weight: 400;
+
 }
 section.tertiarystory h2 {
     font-size: 1.2em;
     margin: .2em 0em;
     padding-top: .5em;
-    border-top: 1.5px solid rgb(74, 90, 143);
+    border-top: 1.5px solid #f15a29;
+;
 }
 
 a {
@@ -73,15 +78,15 @@ article h2 {
 }
 
 figcaption {
-    font-family: sans-serif;
-    font-style: italic;
+    font-family: "helvetica-neue-lt-pro", sans-serif;
+font-weight: 300;
+font-style: italic;
     color: rgb(131, 134, 145);
     margin: .3em .7em 1em;
 }
 
 
 aside {
-    background-color: rgb(190, 153, 209);
     padding: 1em .5em;
 }
 
@@ -92,7 +97,7 @@ aside section.secondary h2 {
 
 
 footer {
-    background-color: rgb(76, 115, 167);
+    background-color: rgb(241, 90, 41);
     box-sizing: border-box;
 }
 footer p{
@@ -208,7 +213,9 @@ footer p{
     }
 
     section.secondary a figure img {
-        object-fit: cover;
+        height: 200px;
+        object-fit:cover;
+        
     }
 
     section.secondary a h2 {
